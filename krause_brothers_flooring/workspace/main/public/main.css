@@ -1,6 +1,7 @@
 html,
 body {
 	font-family: 'Roboto', sans-serif;
+	font-family: 'Molle', cursive;
 	font-family: 'Raleway', sans-serif;
 	font-family: 'Fanwood Text', serif;
 	display: grid;
@@ -15,15 +16,10 @@ a {
 	text-decoration: none;
 }
 
-p {
-	font-family: 'Roboto', sans-serif;
-	line-height: 1.5em;
-	font-weight: 140;
-}
 
 body {
 	display: grid;
-	background: #f3e9dc;
+	background: #ECFFF8;
 	grid-template-columns: min-content 1fr;
 }
 
@@ -40,7 +36,6 @@ header {
 			no-repeat center center fixed;
 	padding: 40rem;
 	z-index: 0;
-	text-align: center;
 	text-shadow: 5px;
 	font-size: 28px;
 	letter-spacing: .3rem;
@@ -60,10 +55,6 @@ h6 {
 	color: #222;
 }
 
-h2 {
-	font-size: 22px;
-	margin: 0 0 30px;
-}
 
 h3 {
 	font-size: 13px;
@@ -72,23 +63,24 @@ h3 {
 }
 
 main {
-	display: grid;
-	grid-column-start: 1;
-	grid-column-end: 5;
-	grid-row-end: span 2;
-	padding-left: 0rem;
-	padding-right: 10rem;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 1rem;
+	padding-right: 12rem;
 	padding-bottom: 2rem;
 }
 
 section {
+	z-index: 1000;
 	grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
 	box-shadow: 1px 1px 3px lightgray;
 	align-content: center;
-	padding: 19rem;
-	margin: 0 0rem 1rem 4rem;
+	padding-left: 0.2em;
+	margin: .2rem;
 	height: auto;
-	width: 1080px;
 }
 
 div #slogan .sub-head {
@@ -119,6 +111,25 @@ span .sub-head {
 	padding-bottom: 6em;
 	margin-top: none;
 	padding-top: none;
+}
+
+.about-text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20pt;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.about-text p {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5em;
+	font-weight: 300;
+	border: 1px dashed grey;
+	flex-grow: initial;
+	text-align:  center;
+	font-weight: thin;
 }
 
 .sub-head-item {
@@ -226,6 +237,7 @@ span .sub-head {
 }
 
 .intro {
+	z-index: 1000;
 	position: absolute;
 	width: 100%;
 	top: 30%;
@@ -328,17 +340,14 @@ span .sub-head {
 #services {
 	width: 80%;
 	margin-top: 4px;
-	background: #dab49d;
 }
 
 #gallery {
 	width: 80%;
-	background-color: #c08552;
 }
 
 #reviews {
 	width: 80%;
-	background: #dab49d;
 }
 
 footer,
