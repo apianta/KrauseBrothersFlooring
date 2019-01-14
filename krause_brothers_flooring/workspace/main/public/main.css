@@ -69,7 +69,6 @@ main {
 	align-items: center;
 	justify-content: space-between;
 	padding-left: 1rem;
-	padding-right: 12rem;
 	padding-bottom: 2rem;
 }
 
@@ -111,6 +110,10 @@ span .sub-head {
 	padding-bottom: 6em;
 	margin-top: none;
 	padding-top: none;
+}
+
+.section {
+	height: auto;
 }
 
 .about-text {
@@ -329,13 +332,35 @@ span .sub-head {
 	text-transform: uppercase;
 }
 
-.card {
-	grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+.carousel-container {
+	height:auto;
+	overflow: hidden;
 }
-.section {
-	display: none;
-	padding: 2rem;
+
+.carousel {
+	display: flex;
+	flex-direction: row;
 }
+
+.image {
+	flex: 1 1 100%;
+	overflow: hidden;
+	transition: flex-basis .5s ease;
+	will-change: flex-basis;
+	transform: translateY(0);
+}
+	.image:hover {
+		flex-basis: 225%;
+	}
+.figure img{
+	border-radius: 2px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	transition: transform 0.5s ease;
+	will-change: transform;
+}
+
 
 #services {
 	width: 80%;
