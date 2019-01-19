@@ -4,12 +4,13 @@
 <head>
 		<title>Krause Brothers Flooring LLC</title>
 		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/grid.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Molle:400i&amp;subset=latin-ext" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Fanwood+Text|Roboto:100,300,400,700" rel="stylesheet">
 		<link rel="stylesheet" href="public/main.css">
 		<link rel="stylesheet" href="public/animated.css">
-		<link rel="stylesheet" href="public/simple-line-icons.css">
+		<link rel="stylesheet" href="public/style.scss">
 
 
 </head>
@@ -129,20 +130,20 @@
 
 <!-- --------------------------------------------------------------------------------------------------------------- -->
 
-<section  id="gallery" class="container">
+<section  id="gallery" class="image-grid">
             <div id="carousel-container-1" class="carousel">
-                    <div class="image">
-						<img src="assets/80yr_pineFloors_orig.jpg">
+                    <div class="image01">
+						<img class="img-1" src="assets/80yr_pineFloors_orig.jpg">
 					</div>
-                    <di class="image">
-						<img src="assets/80yr_pineFloors_after.jpg">
+                    <div class="image02">
+						<img class="img-2" src="assets/80yr_pineFloors_after.jpg">
 					</div>
-				<div id="carousel-container-2" class="carousel">
-                        <div class="image">
-                            <img src="assets/rustic.jpg">
+				<div " id="carousel-container-2" class="carousel">
+                        <div class="image03">
+                            <img class="img-3" src="assets/rustic.jpg">
                     </div>
-                        <div class="image">
-                            <img src="assets/stairsbefore.png">
+                        <div class="image04">
+                            <img class="img-4" src="assets/stairsbefore.png">
 				</div>
 			</div>
 					<!-- <img src="left_right.jpg"> -->
@@ -225,8 +226,17 @@
 			</div>
 		</div>
 </section>
-
-
+<!-- maybe new idea for image gallery? -->
+<!-- <div class="image"></div>
+<div class="image"></div>
+<div class="image"></div>
+<div class="image"></div>
+<div class="image"></div>
+<div class="image"></div>
+<div class="image"></div>
+<div class="image"></div>
+<div class="image"></div>
+<div class="image"></div> -->
 
 <footer id="contact" class="contact-info">
 	<div class="social">
@@ -243,7 +253,10 @@
 </footer>
 
 </main>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 <script src="app.js"></script>
 </body>
 
