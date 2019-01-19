@@ -1,0 +1,95 @@
+#ig-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17pt;
+  font-weight: 300;
+  width: 80%;
+}
+
+.img-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000;
+  height: 60vh;
+  width: 30vw;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+}
+
+.image {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  opacity: .3;
+  margin-right: 1px;
+  -webkit-transition: flex-grow .3s ease-in-out, opacity .3s ease-in-out, -webkit-box-flex .3s ease-in-out;
+  transition: flex-grow .3s ease-in-out, opacity .3s ease-in-out, -webkit-box-flex .3s ease-in-out;
+  transition: flex-grow .3s ease-in-out, opacity .3s ease-in-out;
+  transition: flex-grow .3s ease-in-out, opacity .3s ease-in-out, -webkit-box-flex .3s ease-in-out, -ms-flex-positive .3s ease-in-out;
+}
+
+.image:hover {
+  -webkit-box-flex: 20;
+      -ms-flex-positive: 20;
+          flex-grow: 20;
+  opacity: 1;
+}
+
+.image:nth-of-type(1) {
+  background: url(1.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.image:nth-of-type(2) {
+  background: url(2.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.image:nth-of-type(3) {
+  background: url(3.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.image:nth-of-type(4) {
+  background: url(4.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.image:nth-of-type(5) {
+  background: url(5.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.image:nth-of-type(6) {
+  background: url(6.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.image:nth-of-type(7) {
+  background: url(7.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.image:nth-of-type(8) {
+  background: url(8.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.image:nth-of-type(9) {
+  background: url(9.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.image:nth-of-type(10) {
+  background: url(10.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.image:last-of-type {
+  margin-right: 0;
+}
+/*# sourceMappingURL=main.css.map */
