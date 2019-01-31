@@ -1,0 +1,474 @@
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Fanwood Text', serif;
+	align-items: center;
+	scroll-behavior: smooth;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+header {
+	display: flex;
+	font-family: 'Fanwood Text', serif;
+	z-index: 1000;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../assets/KrauseLanding.webp) no-repeat center center fixed;
+	padding: 40rem;
+	height: 200px;
+	text-shadow: 5px;
+	font-size: 28px;
+	letter-spacing: .3rem;
+	color: #F2EEE7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font: 700 2.0vw Raleway, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin: 5px 0 5px;
+	color: #312115;
+}
+
+h3 {
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin: 0 0 5px;
+}
+
+main {
+	background-image: url(../assets/topography.svg) no-repeat fixed;
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	padding-left: 4rem;
+	padding-bottom: 4rem;
+}
+
+section {
+	align-content: center;
+	padding-left: 0.2em;
+	margin: .2rem;
+	height: auto;
+}
+
+div #slogan .sub-head {
+	font-family: 'Raleway', sans-serif;
+	font-size: 32px;
+	color: #d5573b;
+	text-align: center;
+	margin-top: 1.0em;
+	margin-bottom: 0em;
+	padding-top: 4em;
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation-delay: 2.0s;
+}
+
+span .sub-head {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation-delay: 2.0s;
+}
+
+#slogan .sub-head-item {
+	letter-spacing: 0.0em;
+	font-family: 'Raleway', sans-serif;
+	color: #efefd0;
+	font-size: 22px;
+	padding-left: 27em;
+	padding-bottom: 6em;
+	margin-top: none;
+	padding-top: none;
+}
+
+.container {
+	margin-top: 8em;
+	margin-bottom: 10em;
+}
+
+.about-text {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20pt;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.about-text p {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5em;
+	font-size: 1.4vw;
+	font-weight: 300;
+	flex-grow: initial;
+	text-align: center;
+	font-weight: thin;
+}
+
+.sub-head-item {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	letter-spacing: 0;
+	color: #efefd0;
+	-webkit-animation: bounce-in-top 1.1s both;
+	animation: bounce-in-top 1.1s both;
+	animation-delay: 3.0s;
+}
+
+.sub-head-item span {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 38px;
+	padding-left: 0.4em;
+	letter-spacing: 0.1em;
+	color: #6e9075;
+	-webkit-animation: bounce-in-top 1.1s both;
+	animation: bounce-in-top 1.1s both;
+	animation-delay: 3.0s;
+}
+
+.no-dec {
+	font-family: 'Roboto', sans-serif;
+	z-index: inherit;
+	text-decoration: none;
+	font-weight: 100;
+	padding-left: 2.2em;
+	padding-right: 3em;
+	padding-top: 0.7em;
+}
+
+.slogan-styles {
+	font-family: 'Roboto', sans-serif;
+	text-indent: 3%;
+	display: flex;
+	flex-direction: row;
+	z-index: inherit;
+	justify-content: center;
+	color: #f3e9dc;
+	letter-spacing: 0.1rem;
+	-webkit-animation: tracking-in-expand 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-expand 0.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation-delay: 1.8s;
+}
+
+.slogan-styles span {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 120;
+	padding-top: 0.7em;
+	padding-right: 3em;
+	padding-left: 1.7em;
+	margin-left: 3px;
+	color: #f3e9dc;
+	border-left: 0.2px solid #d5573b;
+	height: 2em;
+	border-spacing: 2em 2em;
+}
+
+.scroll-down {
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	height: 50px;
+	width: 50px;
+	margin-left: -15px;
+	display: block;
+	z-index: 10;
+	text-align: center;
+	animation-delay: 3500ms;
+	-webkit-animation-name: slideInDown;
+		animation-name: slideInDown;
+		-webkit-animation-duration: 500ms;
+		animation-duration: 2000ms;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+}
+
+.scroll-down span {
+	position: relative;
+	color: #f3e9dc;
+	-webkit-animation-name: drop;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	animation-name: drop;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+
+#ig-section {
+	/* background:; */
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+
+.intro-image {
+	padding: 0;
+}
+
+.home-overlay {
+	background-color: rgba(44, 62, 80, 0.3);
+	background-repeat: repeat;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.intro {
+	z-index: 1000;
+	position: absolute;
+	width: 100%;
+	top: 30%;
+	left: 0;
+	text-align: center;
+	margin-bottom: 20em;
+}
+
+.headstyle {
+	font-family: 'Fanwood Text', serif;
+	font-size: 72px;
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+
+
+
+
+
+
+
+body {
+	margin: 0;
+}
+
+.site-wrap {
+	max-width: 700px;
+	margin: 70px auto;
+	background:white;
+	padding:40px;
+	text-align: justify;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+	transform: scale(0.98);
+	transition: transform 0.5s;
+}
+
+body.fixed-nav .site-wrap {
+	transform: scale(1);
+}
+
+nav {
+	background:black;
+	top:0;
+	width: 100%;
+	transition:all 0.5s;
+	position: relative;
+	z-index: 1;
+}
+
+body.fixed-nav nav {
+	position: fixed;
+	box-shadow:0 5px 0 rgba(0,0,0,0.1);
+}
+
+nav ul {
+	margin: 0;
+	padding:0;
+	list-style: none;
+	display:flex;
+}
+
+nav li {
+	flex:1;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+li.logo {
+	max-width:0;
+	overflow: hidden;
+	background: white;
+	transition: all 0.5s;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+li.logo a {
+	color:black;
+}
+
+.fixed-nav li.logo {
+	max-width:500px;
+}
+
+nav a {
+	text-decoration: none;
+	padding:20px;
+	display: inline-block;
+	color:white;
+	transition:all 0.2s;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+#services {
+	width: 80%;
+	margin-top: 4px;
+	padding-bottom: 12rem;
+}
+
+
+#gallery img {
+	height: 320px;
+	width: 400px;
+}
+
+#contact {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	font-size: 27pt;
+	width: 100%;
+}
+
+section,
+#reviews {
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17pt;
+	font-weight: 300;
+	width: 80%;
+}
+
+#reviews h2 {
+	text-align: center;
+}
+
+#reviews p {
+	border-top: solid 1px #d6cfba;
+	text-align: left;
+	text-combine-upright: auto;
+}
+
+.review-style {
+	animation-delay: 750ms;
+-webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-animation-duration: 250ms;
+  animation-duration: 250ms;
+  -webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.review-style1 {
+	animation-delay: 750ms;
+-webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-animation-duration: 500ms;
+  animation-duration: 500ms;
+  -webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+.review-style2 {
+	animation-delay: 800ms;
+-webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-animation-duration: 750ms;
+  animation-duration: 750ms;
+  -webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+.review-style3 {
+	animation-delay: 850ms;
+-webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+  -webkit-animation-fill-mode: both;
+	animation-fill-mode: both
+}
+
+.review-style4 {
+	animation-delay: 750ms;
+-webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  -webkit-animation-duration: 1250ms;
+  animation-duration: 1250ms;
+  -webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+  }
+
+
+
+#reviews strong {
+	font-family: 'Fanwood Text', serif;
+	font-weight: bold;
+}
+
+/* *************************************************** */
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+
+footer #contact {
+	grid-column: 1/3;
+	padding-left: 15rem;
+	color: black;
+	text-decoration-color: black;
+}
+
+footer a:visited {
+	text-decoration: none;
+	color: #16262e;
+}
+
+footer a:link {
+	color: #16262e;
+}
+footer a:hover {
+	color: #6e9075;
+	transition-duration: 1.0s;
+}
+.social {
+	animation-duration: 5s;
+  animation-name: slideInDown;
+}
+
+.social i {
+	justify-content: right;
+	margin: 5px;
+	will-change: transform;
+}
