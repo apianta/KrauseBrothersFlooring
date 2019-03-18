@@ -1,0 +1,467 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Lato', sans-serif;
+	scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+font-size: 1em;
+}
+
+body {
+	font-color: #403f3a;
+}
+
+header {
+	display: flex;
+	font-family: 'Fanwood Text', serif;
+	z-index: 1000;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../assets/KrauseLanding.webp) fixed;
+	padding: 40rem;
+	height: 100%;
+	text-shadow: 5px;
+	font-size: 28px;
+	color: #F2EEE7;
+}
+
+h4 {
+	font: 800 1em 'Raleway';
+	letter-spacing: .2rem;
+	margin: .4em 0 .4em;
+	/* font-weight: 700; */
+	text-transform: uppercase;
+	margin-bottom: 4rem;
+	text-align: center;
+}
+
+h2,
+h3,
+h5,
+h6 {
+	font: 700 2em 'roboto';
+	letter-spacing: .2rem;
+	margin: .4em 0 .4em;
+	text-transform: uppercase;
+	padding: 50px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Lato', serif;
+	font-size: 2.125em;
+	letter-spacing: 1px;
+	margin: 0 0 5px;
+}
+
+main {
+	background-image: url(../assets/topography.svg) relative;
+	padding-left: 4rem;
+	padding-bottom: 4rem;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 5em;
+}
+
+section 
+
+section p {
+	width: auto;
+	height: auto;
+	line-height: 1.75em;
+	padding: 0 20px;
+	margin-bottom: 30px;
+}
+
+ul {
+	list-style: none;
+}
+
+div #slogan .sub-head {
+	font-family: 'Raleway', sans-serif;
+	color: #d5573b;
+	align-content: center;
+	margin-top: 1.0em;
+	margin-bottom: 0em;
+	padding-top: 4em;
+}
+
+.sub-head-item {
+	color: #efefd0;
+	font-size: 22px;
+	padding-left: 27em;
+	padding-bottom: 6em;
+	margin-top: none;
+	padding-top: none;
+}
+
+.container {
+	padding-bottom: 12em;
+}
+
+.about-text p {
+	font-family: 'Lato', serif;
+	font-weight: 200;
+	line-height: 1.5em;
+}
+
+.flex-grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.flex-grid li {
+	text-align: center;
+	padding: 50px;
+	flex-basis: 50%;
+}
+
+.flex-grid li p {
+	font-size: 1em;
+}
+
+.flex-grid h2 {
+	font-size: 4em;
+	padding: none;
+	border-bottom: solid #32936F;
+}
+
+.sub-head-item {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	letter-spacing: 0;
+	color: #efefd0;
+}
+
+.sub-head-item span {
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.375em;
+	padding-left: 5em;
+	color: #6e9075;
+}
+
+.no-dec {
+	z-index: inherit;
+	text-decoration: none;
+	padding-left: 2.2em;
+	padding-right: 3em;
+	padding-top: 0.7em;
+}
+
+.slogan-styles {
+	font-family: 'Roboto', sans-serif;
+	text-indent: 3%;
+	display: flex;
+	flex-direction: row;
+	z-index: inherit;
+	justify-content: center;
+	color: #f3e9dc;
+	letter-spacing: 0.1rem;
+}
+
+.slogan-styles span {
+	font-family: 'Raleway', sans-serif;
+	padding-top: 0.7em;
+	padding-right: 3em;
+	padding-left: 1.7em;
+	margin-left: 3px;
+	color: #f3e9dc;
+	border-left: 0.2px solid #d5573b;
+	height: 2em;
+	border-spacing: 2em 2em;
+}
+
+.scroll-down {
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	height: 50px;
+	width: 50px;
+	margin-left: -15px;
+	display: block;
+	z-index: 1000;
+	text-align: center;
+}
+
+.scroll-down span {
+	position: relative;
+	color: #f3e9dc;
+	-webkit-animation-name: drop;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+
+	-webkit-animation-play-state: running;
+	animation-name: drop;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+
+.intro-image {
+	padding: 0;
+}
+
+.home-overlay {
+	position: absolute;
+	background-color: rgba(44, 62, 80, 0.3);
+	background-repeat: repeat;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.intro {
+	z-index: 1000;
+	position: absolute;
+	width: 100%;
+	top: 30%;
+	left: 0;
+	text-align: center;
+	margin-bottom: 20em;
+}
+
+.headstyle {
+	font: 'Fanwood Text', serif;
+	text-align: center;
+	font-size: 72px;
+}
+
+.site-wrap {
+	/* max-width: 100%; */
+	padding-right: 3em;
+	/* margin: 70px auto; */
+	margin: none;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+	transform: scale(0.98);
+	transition: transform 0.5s;
+}
+
+/* ///////////////navbar///////////////////////////////////////////// */
+
+body.fixed-nav .site-wrap {
+	transform: scale(1);
+}
+
+nav {
+	top: 0;
+	width: 100%;
+	transition: all 0.5s;
+	position: relative;
+	z-index: 1;
+}
+
+.navlink {
+	transition: 0.4s;
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 0 10px;
+	margin: 0 10px;
+}
+
+.navlink:hover {
+	background-color: #ffffff;
+	color: #32936F;
+	padding: 24px 10px;
+}
+
+body.fixed-nav nav {
+	position: fixed;
+	box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+	font-family: 'Lato';
+	font-weight: 800;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	font-weight: 500;
+	flex: 1;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* ///////////navbar///////////////////////////////// */
+
+li.logo {
+	max-width: 0;
+	overflow: hidden;
+	background: white;
+	transition: all 0.3s;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+li.logo a {
+	color: black;
+}
+
+.fixed-nav li.logo {
+	max-width: 500px;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+	color: white;
+	transition: all 0.2s;
+	text-transform: uppercase;
+}
+
+.intro h2 {
+	font-weight: thin;
+}
+
+#home {
+	text-align: center;
+}
+
+#contact {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	font-size: 27pt;
+	width: 100%;
+}
+
+
+#reviews {
+	display: flex;
+	font-family: 'Lato', sans-serif;
+	flex-direction: row;
+	font-size: 1em;
+	font-weight: 300;
+	width: 80%;
+}
+
+#reviews h2 {
+	text-align: center;
+}
+
+#reviews p {
+	border-top: solid 1px #d6cfba;
+	text-align: left;
+	text-combine-upright: auto;
+	margin-bottom: 1.5em;
+}
+
+
+
+#reviews strong {
+	font-family: 'Fanwood Text', serif;
+	font-weight: bold;
+}
+
+/* *************************************************** */
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+
+footer #contact {
+	grid-column: 1/3;
+	padding-left: 15rem;
+	color: black;
+	text-decoration-color: black;
+}
+
+footer a:visited {
+	text-decoration: none;
+	color: #16262e;
+}
+
+footer a:link {
+	color: #16262e;
+}
+
+footer a:hover {
+	color: #6e9075;
+	transition-duration: 1.0s;
+}
+
+.social {
+	animation-duration: 5s;
+	animation-name: slideInDown;
+}
+
+.social i {
+	justify-content: right;
+	margin: 5px;
+	will-change: transform;
+}
+
+/* Screen sizing */
+
+@media (max-width: 800px) {
+	section {
+		padding: 3.125px 1.25em;
+		margin: none;
+	}
+
+	#services .flex-grid li {
+		flex-basis: 100%;
+		padding: 20px;
+	}
+}
+
+@media (max-width: 600px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		padding: none;
+	}
+
+	#services .flex-grid li p {
+		padding: none;
+		margin: none;
+		line-height: none;
+
+	}
+
+}
+
+/* -------------------------------------------- */
