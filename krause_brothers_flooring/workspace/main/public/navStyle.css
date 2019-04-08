@@ -1,0 +1,111 @@
+#main a:hover {
+color: #ffffff;
+text-decoration: none;
+}
+
+.site-wrap {
+  max-width: 90%;
+  margin: 70px auto;
+  background: #ffffff;
+  /* padding: 40px; */
+  /* text-align: justify; */
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.15);
+  transform: scale(0.98);
+  transition: transform 0.5s;
+}
+
+body.fixed-nav .site-wrap {
+  transform: scale(1);
+}
+
+nav {
+  background: #857550;
+  top: 0;
+  width: 100%;
+  transition: all 0.5s;
+  position: relative;
+  z-index: 1;
+}
+
+nav a {
+  font-family: 'Lato', sans-serif;
+	padding: none;
+	display: inline-block;
+	color: #FBFFFE;
+	/* transition: all 0.2s; */
+	text-transform: uppercase;
+}
+
+
+body.fixed-nav nav {
+  position: fixed;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  display: flex;
+  flex: .2;
+  font-weight: 500;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+nav li a {
+  /* padding: 10px; */
+  transition: all 0.2s;
+  text-transform: uppercase;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+#brand img {
+  justify-content: flex-end;
+  height: 4vh;
+  width: 2vw;
+  z-index: 1000;
+  padding: none;
+}
+
+
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  /* display: inline-block;
+  vertical-align: middle; */
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12); height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+  color: white8
+}

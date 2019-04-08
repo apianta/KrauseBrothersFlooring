@@ -1,0 +1,85 @@
+
+#reviews {
+	display: flex;
+	max-height: 800px;
+	text-align: center;
+	flex-direction: column;
+	padding-bottom: 20rem;
+}
+
+#reviews h2 {
+	font-size: 5vmin;
+	text-align: center;
+}
+
+#reviews p {
+	font-size: 1.8vmin;
+	line-height: 1.5em;
+}
+
+#reviews span {
+	padding: 20px;
+}
+
+.quote i {
+	position: absolute;
+	top: 1em;
+	left: 50px;
+}
+
+#reviews footer {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+/* carousel styling */
+
+#carouselControls {
+	max-height: 800px;
+	max-width: auto;
+}
+
+.carousel a {
+	color: #16262e;
+	opacity: 1;
+}
+
+.carousel a:hover {
+	opacity: 1;
+	color: rgb(68,119,74);
+	transition: 0.3s ease;
+}
+
+.carousel a:visited {
+	color: #16262e;
+}
+
+.carousel a:focus {
+	color: #16262e;
+}
+
+.carousel-control-prev {
+	padding-right: 20em;
+}
+
+.carousel-control-next {
+	padding-left: 13em;
+}
+
+.carousel-control-next .carousel-control-prev {
+	z-index: 1000;
+	position: absolute;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.carousel-item {
+	padding: 4em;
+}
+
+.quote p {
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	margin-left: 15em;
+	margin-right: 15em;
+}

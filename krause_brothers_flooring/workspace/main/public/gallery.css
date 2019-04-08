@@ -1,0 +1,47 @@
+.cd-resize-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: auto;
+	width: 0;
+	overflow: hidden;
+	/* Force Hardware Acceleration in WebKit */
+	transform: translateZ(0);
+	backface-visibility: hidden;
+}
+
+.is-visible .cd-resize-img {
+	/* bounce in animation of the modified image */
+	animation: cd-bounce-in 1s;
+}
+
+#gallery {
+	padding-bottom: 15rem;
+}
+
+#gallery .cd-image-container {
+	padding: none;
+}
+
+.gallery-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+@keyframes cd-bounce-in {
+	0% {
+		width: 0;
+	}
+
+	60% {
+		width: 55%;
+	}
+
+	100% {
+		width: 50%;
+	}
+}
+
