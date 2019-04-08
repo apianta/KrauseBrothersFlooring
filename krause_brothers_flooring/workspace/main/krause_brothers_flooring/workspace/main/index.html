@@ -4,23 +4,26 @@
 <head>
 	<title>Krause Brothers Flooring LLC</title>
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+		integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-	 <link href="https://fonts.googleapis.com/css?family=Raleway:400,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-	<link href="https://fonts.googleapis.com/css?family=Fanwood+Text|Roboto:100,300,400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lora|Raleway:300,400,400i,600" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css?family=Lato:200,400,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="public/carousel.css">
+	<!--carousel css-->
 
 	<link rel="stylesheet" href="public/main.css">
 	<link rel="stylesheet" href="public/background.css">
 	<link rel="stylesheet" href="public/navStyle.css">
 	<link rel="stylesheet" href="public/gallery.css">
 	<link rel="stylesheet" href="public/animated.css">
-	<link rel="stylesheet" href="public/style.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="public/style.css"><!-- Resource style -->
+	<link rel="stylesheet" href="public/carousel.css">
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-
+	<!-- bootstrap for carousel -->
 
 </head>
 
@@ -31,31 +34,7 @@
 	<header>
 		<section id="home" class="intro-image">
 			<div class="home-overlay"></div>
-			<div class="intro">
-				<!-- <span class="headstyle">Krause </span>
-				<span class="headstyle">Brothers </span>
-				<span class="headstyle">Flooring </span> -->
-				<div class="slogan-styles">
-					<h2 id="skills" class="slogan-styles">
-						<div class="no-dec">Install</div>
-						<span>
-							Repair
-						</span>
-						<span>
-							Refinish
-						</span>
-					</h2>
-				</div>
-				<div id="slogan">
-					<h2>
-						<span class="sub-head">Hardwood made easy</span>
-					</h2>
 
-					<h2>
-						<div class="sub-head-item"><span> dustless!</span></div>
-					</h2>
-				</div>
-			</div>
 		</section>
 	</header>
 
@@ -72,17 +51,20 @@
 	<!-- ***************************************************************** -->
 	<nav id="main">
 		<!-- ".fixednav -- see "js/nav.js"-->
-		<ul>
 
-			<li>
-				<a class="navlink" href="#services">About Us</a>
+		<ul>
+			<li id="brand" class="navlink">
+					<img src="assets/MoreLogoIdeas.png">
 			</li>
-			<li>
-				<a class="navlink" href="#gallery">
+			<li class="navlink">
+				<a class="hvr-underline-from-center" href="#services">About Us</a>
+			</li>
+			<li class="navlink">
+				<a class="hvr-underline-from-center" href="#gallery">
 					<!-- <i class="fas fa-camera"></i> -->
 					Gallery</a> </li>
-			<li>
-				<a class="navlink" href="#reviews">
+			<li class="navlink">
+				<a class="hvr-underline-from-center" href="#reviews">
 					<!-- <i class="fas fa-star"></i> -->
 					Reviews</a>
 			</li>
@@ -92,57 +74,47 @@
 
 	<main class="site-wrap">
 		<section id="services">
-			<iv class="container">
-				<div class="about-style">
-					<div class="about-text">
-						<div class="about-head">
-							<h4><img src="assets/moreKrauseIdeas.svg" height="50pt" width="300pt"></h4>
-
-							</div>
-						<ul class="flex-grid">
-							<li class="service1">
-								<h2>Installation</h2>
-								<p>
-									Do you need a new floor installed? At Krause Brothers Flooring, we excel at installing real hardwood floors.
-									You will be pleased with our quick service coupled with quality work. If you desire other "wood" options such
-									as
-									engineered or laminate we can do that too.
-									Let Krause Brothers Flooring help you make the best decision that suits your home or business.
-								</p>
-							</li>
+			<div class="about-style">
+				<div class="about-text">
+					<ul class="flex-grid">
+						<li class="service1">
+							<h2>Install</h2>
+							<p>
+										Do you need a new floor installed? At Krause Brothers Flooring, we excel at installing real hardwood
+								floors.
+								You will be pleased with our quick service coupled with quality work. If you'd prefer engineered (tongue & groove) or laminate we would be happy to install that as well.
+								Let us help you make the best decision that suits your home or business.
+							</p>
+						</li>
 
 
-							<li class="service2">
-								<h2>Refinishing</h2>
-								<p>
-									Do your hardwood floors need a makeover? At Krause Brothers Flooring, we pride ourselves on offering the best
-									sanding and refinishing process in Central Ohio.
-									Our process is virtually dustless thanks to our high-quality, built-in vacuum system.
-									We, then, only use the best products to finish your floors.
-									The premium waterbourne finishes have minimal odor while providing a durable hardwood finish. Krause Brothers
-									Flooring will restore your hardwood floors to their original luster.
-								</p>
-							</li>
-							<li class="service3">
-								<h2>Clean</h2>
-								<p>
-									Are your floors dirty and just need a good deep clean? You
-									may just need a professional clean and recoat by Krause
-									Brothers Flooring. This process is quick and easy and will also
-									even eliminate minor scuffs in your floors. During this
-									process we go over it twice to make sure it is clean.
-									Then, we put a commercial grade polyurethane down.
-								</P>
-							</li>
-							<li class="service4">
-								<h2>Recoat</h2>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit facilis beatae veritatis numquam esse! Quisquam vero itaque culpa mollitia, quam aut illo pariatur quas, autem aspernatur et, maiores ipsa laboriosam vel? Architecto impedit, et in error at esse ea, atque perferendis exercitationem quisquam ratione quod molestias ad. Magnam, accusamus architecto.
-								</P>
-							</li>
-						</ul>
-					</div>
+						<li class="service2">
+							<h2>Refinish</h2>
+							<p>
+										Do your hardwood floors need a makeover? At Krause Brothers Flooring, we pride ourselves on offering the
+								best
+								sanding and refinishing process in Central Ohio.
+								Our process is virtually dustless thanks to our high-quality, built-in vacuum system.
+								We, then, only use the best products to finish your floors.
+								The premium waterbourne finishes have minimal odor while providing a durable hardwood finish. Krause
+								Brothers
+								Flooring will restore your hardwood floors to their original luster.
+							</p>
+						</li>
+						<li class="service-3">
+							<h2>Clean & Recoat</h2>
+							<p>
+										Are your floors dirty and just need a good deep clean? You
+								may just need a professional clean and recoat by Krause
+								Brothers Flooring. This process is quick and easy and will also
+								even eliminate minor scuffs in your floors. During this
+								process we go over it twice to make sure it is clean.
+								Then, we put a commercial grade polyurethane down.
+							</P>
+						</li>
+					</ul>
 				</div>
+			</div>
 
 
 
@@ -152,144 +124,169 @@
 		<section id="gallery">
 
 			<div class="gallery-container">
-		
+
 				<figure class="cd-image-container">
 					<img src="assets/80yr_pineFloors_orig.webp" alt="Original Image">
 					<span class="cd-image-label" data-type="original">Before</span>
-	
+
 					<div class="cd-resize-img">
 						<!-- the resizable image on top -->
 						<img src="assets/80yr_pineFloors_after.webp" alt="Modified Image">
 						<span class="cd-image-label" data-type="modified">After</span>
 					</div>
-	
+
 					<span class="cd-handle"></span> <!-- slider handle -->
 				</figure> <!-- cd-image-container -->
 
-	
-				<figure class="cd-image-container">
-						<img src="assets/stairsbefore.webp" alt="Original Image">
-						<span class="cd-image-label" data-type="original">Before</span>
-		
-						<div class="cd-resize-img">
-							<!-- the resizable image on top -->
-							<img src="assets/stairsafter.webp" alt="Modified Image">
-							<span class="cd-image-label" data-type="modified">After</span>
-						</div>
-		
-						<span class="cd-handle"></span> <!-- slider handle -->
-					</figure> <!-- cd-image-container -->
-	
-	
-					<figure class="cd-image-container">
-						<img src="assets/kitchenBefore.webp" alt="Original Image">
-						<span class="cd-image-label" data-type="original">Before</span>
-						
-						<div class="cd-resize-img">
-							<!-- the resizable image on top -->
-							<img src="assets/kitchenafter.webp" alt="Modified Image">
-							<span class="cd-image-label" data-type="modified">After</span>
-						</div>
-						
-						<span class="cd-handle"></span> <!-- slider handle -->
-					</figure> <!-- cd-image-container -->
-					
 
-					<figure class="cd-image-container">
-						<img src="assets/fireplacebefore.webp" alt="Original Image">
-						<span class="cd-image-label" data-type="original">Before</span>
-						
-						<div class="cd-resize-img">
-							<!-- the resizable image on top -->
-							<img src="assets/fireplaceafter.webp" alt="Modified Image">
-							<span class="cd-image-label" data-type="modified">After</span>
-						</div>
-						
-						<span class="cd-handle"></span> <!-- slider handle -->
-					</figure> <!-- cd-image-container -->
-					
-				</div>
-			</section>
+				<figure class="cd-image-container">
+					<img src="assets/stairsbefore.webp" alt="Original Image">
+					<span class="cd-image-label" data-type="original">Before</span>
+
+					<div class="cd-resize-img">
+						<!-- the resizable image on top -->
+						<img src="assets/stairsafter.webp" alt="Modified Image">
+						<span class="cd-image-label" data-type="modified">After</span>
+					</div>
+
+					<span class="cd-handle"></span> <!-- slider handle -->
+				</figure> <!-- cd-image-container -->
+
+
+				<figure class="cd-image-container">
+					<img src="assets/kitchenBefore.webp" alt="Original Image">
+					<span class="cd-image-label" data-type="original">Before</span>
+
+					<div class="cd-resize-img">
+						<!-- the resizable image on top -->
+						<img src="assets/kitchenafter.webp" alt="Modified Image">
+						<span class="cd-image-label" data-type="modified">After</span>
+					</div>
+
+					<span class="cd-handle"></span> <!-- slider handle -->
+				</figure> <!-- cd-image-container -->
+
+
+				<figure class="cd-image-container">
+					<img src="assets/fireplacebefore.webp" alt="Original Image">
+					<span class="cd-image-label" data-type="original">Before</span>
+
+					<div class="cd-resize-img">
+						<!-- the resizable image on top -->
+						<img src="assets/fireplaceafter.webp" alt="Modified Image">
+						<span class="cd-image-label" data-type="modified">After</span>
+					</div>
+
+					<span class="cd-handle"></span> <!-- slider handle -->
+				</figure> <!-- cd-image-container -->
+
+			</div>
+		</section>
 
 		<!-- ***************************************************************** -->
 
 
 
-		<section id="reviews" class="container">
-			<div class="container-reviews">
-				<div class="card">
-					<h2>Testimonials</h2>
-					<div class="review-style">
-						<p>
-							"We needed our entire first floor wood flooring
-							replaced. Knowing that this was going to be a large
-							expense and a fairly permanent decision, we didn't
-							want to make the mistake of having our floors redone
-							by just anyone. We wanted someone who was honest
-							from the very first meeting, who showed
-							professionalism while in our home, and who worked
-							diligently to get the job done well. Phil and Tim
-							Krause far exceeded my expectations in every way.
-							They are an incredible team with genuine hearts, and
-							their customer service was fantastic! I would highly
-							recommend the Krause Brothers to anyone I knew who
-							needed hardwood floors." - <strong>Erin from
-								Columbus</strong>
-						</p>
+		<section id="reviews">
+			<h2>Testimonials</h2>
+			<div id="carouselControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="quote">
+							<span><i class="fas fa-quote-left fa-2x"></i></span>
+							<p>
+								We needed our entire first floor wood flooring
+								replaced. Knowing that this was going to be a large
+								expense and a fairly permanent decision, we didn't
+								want to make the mistake of having our floors redone
+								by just anyone. We wanted someone who was honest
+								from the very first meeting, who showed
+								professionalism while in our home, and who worked
+								diligently to get the job done well. Phil and Tim
+								Krause far exceeded my expectations in every way.
+								They are an incredible team with genuine hearts, and
+								their customer service was fantastic! I would highly
+								recommend the Krause Brothers to anyone I knew who
+								needed hardwood floors.<footer class="blockquote-footer">Erin from
+									Columbus</footer>
+							</p>
+						</div>
 					</div>
-					<br>
-					<div class="review-style">
-						<p>
-							"I was incredibly impressed with Krause Brothers
-							Flooring! They did an excellent job giving it a
-							professional look with a personal touch as they
-							carefully placed boards keeping in mind not just the
-							floor but the room itself. It is evident the
-							brothers enjoy taking pride in their work with their
-							attention to detail, knowledge of wood and wood
-							care, and working with excellence until completion.
-							I have already recommended their services to
-							others." - <strong>Lori from Columbus</strong>
-						</p>
+					<div class="carousel-item">
+						<div class="quote">
+
+							<span><i class="fas fa-quote-left fa-2x"></i></span>
+							<p>
+								I was incredibly impressed with Krause Brothers
+								Flooring! They did an excellent job giving it a
+								professional look with a personal touch as they
+								carefully placed boards keeping in mind not just the
+								floor but the room itself. It is evident the
+								brothers enjoy taking pride in their work with their
+								attention to detail, knowledge of wood and wood
+								care, and working with excellence until completion.
+								I have already recommended their services to
+								others.<footer class="blockquote-footer">Lori from Columbus</footer>
+							</p>
+						</div>
 					</div>
-					<br>
-					<div class="review-style">
-						<p>
-							"They were very professional, and did fantastic
-							work! They were easy to work with on getting an
-							estimate, and scheduling the work. They also were
-							great about explaining each step of the process, as
-							well as what I needed to know about after care. I
-							had severely abused floors, and they did a great job
-							with them, and when there was a spot that was still
-							going to show imperfections due to the damage, they
-							pointed them out to me before work even started.
-							Will definitely recommend them to people, and would
-							definitely use them again." - <strong>Beth from
-								Bexley</strong>
-						</p>
+					<div class="carousel-item">
+
+						<div class="quote">
+							<span><i class="fas fa-quote-left fa-2x"></i></span>
+
+							<p>
+								They were very professional, and did fantastic
+								work! They were easy to work with on getting an
+								estimate, and scheduling the work. They also were
+								great about explaining each step of the process, as
+								well as what I needed to know about after care. I
+								had severely abused floors, and they did a great job
+								with them, and when there was a spot that was still
+								going to show imperfections due to the damage, they
+								pointed them out to me before work even started.
+								Will definitely recommend them to people, and would
+								definitely use them again.<footer class="blockquote-footer">Beth from
+									Bexley</footer>
+							</p>
+						</div>
 					</div>
-					<br>
-					<div class="review-style">
-						<p>
-							"The Krause Brothers are the best! They are such
-							great guys and do amazing work! My wife can't stop
-							talking about our new maple floors that they
-							installed. Very very happy with the way everything
-							turned out!" - <strong>Dave from Gahanna</strong>
-						</p>
+					<div class="carousel-item">
+						<div class="quote">
+							<span><i class="fas fa-quote-left fa-2x"></i> </span>
+							<p>
+								The Krause Brothers are the best! They are such
+								great guys and do amazing work! My wife can't stop
+								talking about our new maple floors that they
+								installed. Very happy with the way everything
+								turned out!<footer class="blockquote-footer">Dave from Gahanna</footer>
+							</p>
+						</div>
 					</div>
-					<div class="review-style">
-						<p>
-							"They did a great job on our hard word flooring!
-							They are super friendly, efficient, and their work
-							is excellent. We were very satisfied and highly
-							recommend them." - <strong>Sheree from
-								Hilliard</strong>
-						</p>
+					<div class="carousel-item">
+						<div class="quote">
+							<span><i class="fas fa-quote-left fa-2x"></i> </span>
+							<p>
+								They did a great job on our hard word flooring!
+								They are super friendly, efficient, and their work
+								is excellent. We were very satisfied and highly
+								recommend them.<footer class="blockquote-footer">Sheree from
+									Hilliard</footer>
+							</p>
+						</div>
 					</div>
 				</div>
+				<a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="prev"><i class="fas fa-angle-left fa-2x"></i></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+					<i class="fas fa-angle-right fa-2x"></i>
+					<span class="sr-only">Next</span>
+				</a>
 			</div>
+
 		</section>
 
 
@@ -314,15 +311,24 @@
 	</main>
 
 
-<!-- Javascript links -->
-
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-	crossorigin="anonymous"></script>
-
+	<!-- Javascript links -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="js/nav.js"></script>
 	<script src="js/slider.js"></script>
 	<script src="js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
 	<script src="js/main.js"></script> <!-- Resource jQuery -->
+	<!-- bootstrap/carousel -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
 </body>
 
 </html>
