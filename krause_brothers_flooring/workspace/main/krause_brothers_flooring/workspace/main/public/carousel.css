@@ -1,0 +1,100 @@
+#reviews h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 5vmin;
+}
+
+#reviews p {
+    text-align: center;
+    text-combine-upright: auto;
+    margin-bottom: 1.5em;
+}
+
+#reviews strong {
+    font-weight: bold;
+}
+
+#reviews {
+    max-height: 800px;
+    flex-direction: column;
+    align-content: center;
+    padding-bottom: 20rem;
+    text-align: center;
+    margin: auto;
+}
+
+#reviews h2 {
+    font-size: 5vmin;
+    text-align: center;
+}
+
+#reviews p {
+    font-size: 1vw;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+.quote i {
+    position: absolute;
+    top: 1em;
+    left: 50px;
+}
+
+#reviews footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.8vmin;
+}
+
+/* carousel styling */
+
+#carouselControls {
+    max-height: 800px;
+    max-width: auto;
+}
+
+.carousel a {
+    color: #16262e;
+    opacity: 1;
+}
+
+.carousel a:hover {
+    opacity: 1;
+    color: rgb(68, 119, 74);
+    transition: 0.3s ease;
+}
+
+.carousel a:visited {
+    color: #16262e;
+}
+
+.carousel a:focus {
+    color: #16262e;
+}
+
+.carousel-control-prev {
+    padding-right: 20em;
+}
+
+.carousel-control-next {
+    padding-left: 13em;
+}
+
+.carousel-control-next .carousel-control-prev {
+    z-index: 1000;
+    position: absolute;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+.carousel-item {
+    padding: 4em;
+}
+
+.quote p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
+    line-height: 1.5;
+    margin-left: 15em;
+    margin-right: 15em;
+}
